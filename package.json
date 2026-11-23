@@ -1,0 +1,12 @@
+{
+  "name": "qualitycheck-monorepo",
+  "private": true,
+  "workspaces": [
+    "frontend_react"
+  ],
+  "scripts": {
+    "dev": "npm --workspace=frontend_react run dev",
+    "build": "npm --workspace=frontend_react run build"
+  }
+}
+
